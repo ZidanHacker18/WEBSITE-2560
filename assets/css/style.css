@@ -792,7 +792,7 @@ header {
     .column-container-1 {
         margin-left: auto;
         margin-right: auto;
-        max-width: 300px;
+        max-width: 250px;
     }
     .price-ul li {
         white-space: normal;
@@ -1022,4 +1022,166 @@ footer {
     .flex-social-images {
         gap: 0px; 
     }
+    .flex-social-images {
+        flex-direction: column;
+        gap: 10px;
+    }
 }
+
+@media screen and (max-width: 356px) {
+    .hero p:nth-child(1) {
+        font-size: 28px;
+    }
+    .hero p:nth-child(2) {
+        font-size: 10px;
+        max-width: 250px;
+    }
+    .input-button input::placeholder {
+        font-size: 12px;
+    }
+    .input-button button {
+        font-size: 12px;
+        padding: 14px 10px 13px 10px;
+    }
+    .input-button input {
+        padding: 14px 0px 10px 5px;
+        max-width: 140px;
+    }
+    .img-logo {
+        left: 20px;
+    }
+    .open {
+        right: 10px;
+        left: 220px;
+    }
+    .left-hero {
+        max-width: 210px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .open {
+        width: 60px;
+        height: 40px;
+    }
+    .flex-images {
+        flex-direction: column;
+    }
+    .img-1-style img, .img-2-style img, .works-img-right img {
+        max-width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 60px;
+    }
+    .hero {
+        padding-bottom: 50px;
+    }
+    .input-button-2 {
+        flex-direction: column;
+        gap: 15px
+    }
+    .input-button-2 input {
+        border-right: dotted;
+    }
+}
+
+@media screen and (max-width: 258px) {
+    .img-1-style img, .img-2-style img, .works-img-right img {
+        padding-left: 70px;
+    }
+    .price-container-1 {
+        margin-left: 20px;
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width: 186px) {
+    .img-1-style img, .img-2-style img, .works-img-right img {
+        padding-left: 100px;
+    }
+    .price-container-1 {
+        transform: translateX(60px);
+    }
+}
+
+@media screen and (max-width: 140px) {
+    .img-1-style img, .img-2-style img, .works-img-right img {
+        padding-left: 130px;
+    }
+}
+
+@media screen and (max-width: 70px) {
+    .hero p:nth-child(1) {
+        font-size: 20px;
+    }
+    .hero p:nth-child(2) {
+        font-size: 10px;
+        max-width: 250px;
+    }
+    .input-button input::placeholder {
+        font-size: 6px;
+    }
+    .input-button button {
+        font-size: 6px;
+        padding: 14px 10px 13px 10px;
+    }
+    .input-button input {
+        padding: 14px 0px 10px 5px;
+        max-width: 80px;
+    }
+    .img-logo {
+        left: 20px;
+    }
+    .open {
+        right: 10px;
+        left: 140px;
+    }
+    .left-hero {
+        max-width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 220px) {
+    .about {
+        transform: translateX(50px);
+    }
+    
+}
+
+@media screen and (max-width: 104px) {
+    .works-left {
+        transform: translateX(40px);
+    }
+    
+}
+
+@media screen and (max-width: 120px) {
+    .about {
+        transform: translateX(100px);
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .works-left {
+        margin-left: 10px;
+        padding-left: 10px;
+    }
+    .text-left-1 {
+        font-size: 20px;
+    }
+    .works-left-text p:nth-child(1) {
+        font-size: 15px;
+    }
+    .works-left-text p:nth-child(2) {
+        font-size: 14px;
+    }
+    footer {
+        position: absolute;
+        z-index: -1;
+    }
+    .footer-column {
+        align-items: flex-start;
+    }
+}
+
